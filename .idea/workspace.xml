@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96f15787-6847-400f-9544-de499585d1ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/future/src/components/loader/Loader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/future/src/components/loader/Loader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/future/src/components/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/future/src/components/tableRender.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/future/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/future/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/future/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/future/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/future/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/future/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/future/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/future/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/future/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/future/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/future/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/future/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/future/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/future/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/future" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lvGyQlxxl0WO4IwZpwnbcUTvst" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -61,7 +49,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608470406957</updated>
-      <workItem from="1608470408121" duration="8440000" />
+      <workItem from="1608470408121" duration="9056000" />
+      <workItem from="1608555730201" duration="4619000" />
     </task>
     <servers />
   </component>
@@ -78,5 +67,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

@@ -9,34 +9,34 @@ const TableRender = (props) => {
                 <tr>
                     <th>
                         <button type="button" onClick={props.onSort.bind(null, 'id')}>
-                        id
+                        id {props.sortField === 'id' ? <div>{props.sort}</div> : null}
                         </button>
                     </th>
                     <th>
                         <button type="button" onClick={props.onSort.bind(null, 'firstName')}>
-                        First Name
+                        First Name {props.sortField === 'firstName' ? <div>{props.sort}</div> : null}
                         </button>
                     </th>
                     <th>
                         <button type="button" onClick={props.onSort.bind(null, 'lastName')}>
-                        Last Name
+                        Last Name {props.sortField === 'lastName' ? <div>{props.sort}</div> : null}
                         </button>
                     </th>
                     <th>
                         <button type="button" onClick={props.onSort.bind(null, 'email')}>
-                        Email Name
+                        Email Name {props.sortField === 'email' ? <div>{props.sort}</div> : null}
                         </button>
                     </th>
                     <th>
                         <button type="button" onClick={props.onSort.bind(null, 'phone')}>
-                        phone
+                        phone {props.sortField === 'phone' ? <div>{props.sort}</div> : null}
                         </button>
                     </th>
                     </tr>
                 </thead>
                 <tbody>
                 {data.map(item => (
-                        <tr key={item.id + item.phone}>
+                        <tr key={item.id + item.phone} onClick={props.onRowSelect.bind(null, item)}>
                             <td>{item.id}</td>
                             <td>{item.firstName}</td>
                             <td>{item.lastName}</td>
